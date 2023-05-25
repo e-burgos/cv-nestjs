@@ -1,1 +1,2 @@
-https://ualmtorres.github.io/nestjs-mongodb-tutorial/
+mongoDB in nest.sj > https://ualmtorres.github.io/nestjs-mongodb-tutorial/
+express.js in netlify > https://awstip.com/express-server-on-netlify-for-free-step-by-step-guide-e5fbdb47d891
