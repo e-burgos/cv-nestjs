@@ -14,8 +14,8 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, options);
 
   // La ruta en que se sirve la documentación
-  SwaggerModule.setup('docs', app, document);
+  SwaggerModule.setup('api', app, document);
 
-  await app.listen(3000);
+  await app.listen(5019);
 }
 bootstrap();
