@@ -8,7 +8,8 @@ import { UsersModule } from './users/users.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://eburgos:Esteban9414@cluster0.zzwjwkr.mongodb.net/',
+      'mongodb+srv://eburgos:Esteban9414@cluster0.zzwjwkr.mongodb.net/?retryWrites=true&w=majority',
+      { dbName: `${process.env.DATABASE || 'test'}` },
     ),
     BooksModule,
     UsersModule,
